@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- HEADER -->
+        <header class="chat-header">
+
+            <div class="profile">
+
+                <div class="avatar">
+                    AI
+                </div>
+
+                <div class="profile-info">
+                    <h2>Chat Assistant</h2>
+                    <span>
+                        <span class="online-dot"></span>
+                        Online
+                    </span>
+                </div>
+
+            </div>
+
+            <button id="clearChat" class="clear-btn">
+                Clear
+            </button>
+
+        </header>
+
+
+        
+        <main class="chat-box" id="chatBox">
+
+           
+
+        </main>
+
+
+      
+        <form class="chat-input" id="chatForm">
+
+            <input
+                type="text"
+                id="messageInput"
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+
+            <button type="submit" id="sendButton">
+                Send
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
